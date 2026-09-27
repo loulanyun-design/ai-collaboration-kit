@@ -1,0 +1,17 @@
+node_modules/
+.runtime/
+.tools/
+worktrees/
+**/test-tmp/
+*.log
+*.pid
+*.exit
+.env
+.env.*
+!.env.example
+**/work/handoffs/.handoff.lock.json
+**/work/handoffs/RESULT.md
+**/work/handoffs/current.md
+collaboration/projects.json
+.DS_Store
+Thumbs.db

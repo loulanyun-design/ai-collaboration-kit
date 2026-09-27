@@ -1,0 +1,16 @@
+{
+  "name": "collaboration-runner-mcp-server",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Thin MCP transport for the existing Collaboration Runner.",
+  "scripts": {
+    "check": "node --check src/bridge.mjs && node --check src/server.mjs",
+    "test": "node --test test/*.test.mjs",
+    "start": "node src/server.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.30.0",
+    "zod": "4.6.5"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "policy_id": "sample-project",
+  "normative_files": [
+    "COLLAB_POLICY.md"
+  ],
+  "restrictions": {
+    "forbid_recursive_delegation": true,
+    "require_single_writer": true,
+    "require_task_side_effect_flags": true,
+    "require_code_worktree": true,
+    "require_code_allowlist": true,
+    "require_code_commit": true,
+    "require_structured_result": true,
+    "require_chatgpt_business_acceptance": true,
+    "forbid_unknown_auto_retry": true,
+    "forbid_unknown_lock_autoclear": true,
+    "require_explicit_user_for_merge": true,
+    "require_explicit_user_for_push": true,
+    "require_explicit_user_for_deploy": true,
+    "require_explicit_user_for_publish": true,
+    "require_explicit_user_for_external_upload": true,
+    "require_explicit_user_for_production_write": true
+  }
+}

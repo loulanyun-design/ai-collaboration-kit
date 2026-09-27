@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "note": "Run setup.ps1 to generate projects.json with your local absolute paths.",
+  "projects": [
+    {
+      "id": "sample-project",
+      "path": "C:\\path\\to\\ai-collaboration-kit\\examples\\sample-project",
+      "enabled": true,
+      "project_rules": "AGENTS.md",
+      "handoff_dir": "work\\handoffs"
+    }
+  ]
+}

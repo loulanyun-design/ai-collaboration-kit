@@ -1,0 +1,11 @@
+{
+  "name": "collaboration-runner-pilot",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "install:codex-cli": "node tools/install-codex-cli.mjs",
+    "check": "node --check src/runner.mjs && node --check src/worker.mjs && node --check src/lib.mjs && node --check src/process-lifecycle.mjs && node --check src/model-policy.mjs && node --check src/jev.mjs && node --check src/jev-shadow.mjs && node --check src/code.mjs && node --check src/noncode.mjs && node --check src/executors/fake.mjs && node --check src/executors/codex.mjs && node --check src/executors/local-copy.mjs && node --check tools/install-codex-cli.mjs",
+    "test": "node --test test/*.test.mjs"
+  }
+}
